@@ -1,0 +1,35 @@
+.column{
+    width: 250px;
+    height: 300px;
+    float: left;
+}
+.san-pham{
+    background-color:rgb(171, 197, 86);
+    border-radius: 10px;
+    padding: 10px ;
+    margin: 5px;
+    border: 1px solid gray;
+}
+.san-pham >img{
+    width: 220px;
+    height: 220px;
+}
+.san-pham .mau{
+    color: rgb(54, 66, 66);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.san-pham .price{
+    text-align: center;
+    color: rgb(51, 51, 85);
+    font-size: large;
+    font-weight: large;
+    margin-bottom: 5px;
+}
+.san-pham .price:hover{
+    box-shadow: 5px 10px rgb rgb(73, 143, 85);
+    background-color: rgb(233, 43, 14);
+    border-radius: 30px;
+}
